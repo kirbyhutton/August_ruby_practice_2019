@@ -159,5 +159,25 @@
 #instance methods require an instance of that class in order to run
 
 
+###Procs in Ruby####
+
+# full_name = Proc.new {|first, last| first + " " + last}
+# p full_name["Kirby","Hutton"]
+# p full_name.call("Kirby",  "Hutton")
+
+# first_name_rep = Proc.new { |first| first * 5 }
+# p first_name_rep["Kirby"]
+
+# first_name_loop = Proc.new do |first|
+# 	first * 5
+# end
+
+# p first_name_loop["Kirby"]
+
+# this is like storing processes/functions inside of variables - this is useful with rails
+#need to use lambda syntax in order to build out database queries
+#need to understand procs and lambdas to build things in the future
+
+
 
 
