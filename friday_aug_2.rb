@@ -95,6 +95,41 @@
 # Float (1.2, 3.1, 4.23)
 # Decimal(3.45645745, 2.345326, 5.23495873945)
 
+###Section 5: Methods in Ruby###
+
+##Intro to methods in Ruby
+
+#methods are like functions in Python
+# always start with def, syntax is lowercase and snakecase
+# must end with end
+
+# def baseball_team_list
+# 	puts ["A's", "Angels", "Astros"]
+# end
+
+# baseball_team_list
+
+###What a Ruby method returns###
+
+# def baseball_team_list
+# 	["A's", "Angels", "Astros"]
+# end
+
+# def second_baseball_team_list
+# 	x = 15
+# 	return ["A's", "Angels", "Astros"] if x == 10
+# 	["Yankees", "Mets"]
+# end 
+
+# # p baseball_team_list
+# p second_baseball_team_list
+
+#return is redundant if there is only one line of code in a function
+#when the compiler sees return it stops and skips right to the end
+
+
+
+
 
 
 
