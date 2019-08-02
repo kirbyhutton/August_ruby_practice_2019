@@ -127,8 +127,36 @@
 #return is redundant if there is only one line of code in a function
 #when the compiler sees return it stops and skips right to the end
 
+###Difference Between Puts and Returning Values ###
 
+# def void_method
+# 	puts "Hey there"
+# end
+# void_method
+##this returns NOTHING
 
+## Difference between Class Method and Instance Method in Ruby ####
+
+# class Invoice
+# 	#Class Method
+# 	def self.print_out
+# 		"Printed out invoice"
+# 	end
+
+# 	# Instance method
+# 	def convert_to_pdf
+# 		"Converted to PDF"
+# 	end	
+
+# end
+
+# Invoice.print_out
+
+# i = Invoice.new
+# i.convert_to_pdf
+
+#a class method can be called just on top of the class itself
+#instance methods require an instance of that class in order to run
 
 
 
