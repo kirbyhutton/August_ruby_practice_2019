@@ -178,6 +178,23 @@
 #need to use lambda syntax in order to build out database queries
 #need to understand procs and lambdas to build things in the future
 
+###Lambdas in Ruby###
+
+# #lambdas are similar to procs
+# first_name = lambda { |first, last| first + " " + last }
+
+# p first_name["Kirby", "Hutton"]
+
+# #difference here is writing lambda instead of Proc.new
+
+# #You will rarely see this syntax written out. More often you will see stabby lambda syntax
 
 
+# last_name = ->(first, last) {first + " " + last} #this is stabby lambda syntax
+# p last_name["Kirby", "Hutton"]
+
+# # this is generally what you see people use with rails
+
+# #call also use call syntax
+# p last_name.call("Oren", "Leaffer")
 
