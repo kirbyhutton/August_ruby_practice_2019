@@ -62,15 +62,38 @@
 
 ###Section 4: Working with Numbers in Ruby ########
 
+## Arithmetic functions in Ruby###
 
+# p 5+ 5 #addition
+# p 5-5 #subtraction
+# p 5/5 #division
+# p 5*5 #multiplication
+# p 5**5 #exponents
 
+### Order of Operations in Ruby Arithmetic ###
 
+# Please Excuse My Dear Aunt Sally
+# PEMDAS
 
+# p 5 + 15 * 20 - 2 / 6**3 - (3+1)
+# 5 + 15 * 20 - 2 / 6**3 - 4
+# 5 + 15 * 20 - 2 / 216 - 4
+# 5 + 300 - 2 / 216 - 4
+# 5 + 300 - 0 - 4
+# 305 - 0 - 4
+# 301
 
+# if (x>7 && y < 19) || z == 5
 
+##order of operations continues into how equations are processed
 
+###Difference between integers and floats in Ruby###
+# p 2/216
+# p 2.0/216
 
-
+# Integer (1, 2, 3)
+# Float (1.2, 3.1, 4.23)
+# Decimal(3.45645745, 2.345326, 5.23495873945)
 
 
 
