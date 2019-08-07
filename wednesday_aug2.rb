@@ -108,9 +108,40 @@
 # stream_movie title: "The English Patient", lang: "FR"
 
 
+###Splat and Keyword Splat Arguments########################################
+
+def roster player_1, player_2, player_3
+	puts player_1
+	puts player_2
+	puts player_3
+end
+
+roster 'Altuve', 'Gattis', 'Springer'
+
+##This does not scale well because we need to type in all of the arguments
+
+##SPLAT ARGUMENT###
+
+def roster *players
+	puts players
+end
+
+roster 'Altuve', 'Gattis', 'Springer'
+
+#this treats the given arguments as an array - SEE BELOW!#
+
+def roster *players
+	p players
+end
+
+roster 'Altuve', 'Gattis', 'Springer'
 
 
 
+
+
+
+# this is more scalable because you can pass in as many arguments as you want
 
 
 
